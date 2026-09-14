@@ -11,22 +11,31 @@ p {font-size: 15px}
 .highlight {
     background-color: rgb(155, 163, 197);
     height: 30px;}
-    
+  
 /*parts*/
-.header {
+.header { /*part 1*/
     text-align: center;
     font-family: consolas;
     margin-bottom: 30px;
     background: linear-gradient(#588BAE, #7895b2);
     color: white;
     padding: 10px;}
-.main-content {
-    position: relative;
+
+.static-box {
+    position: static;} /*position*/
+
+.main-content { /*part 2*/
+    position: relative; /*position*/
     width: 85%;
     max-width: 1000px;
     margin: 0 auto;}
-.footer {
-    position: relative;
+
+.star {
+    position: absolute; /*position*/
+    top: 70px;
+    right: 30px;}
+
+.footer { /*part 3*/
     width: 30%;
     max-width: 1000px;
     padding: 30px;
@@ -34,13 +43,7 @@ p {font-size: 15px}
     border-radius: 20px;
     margin: 0 auto 50px;
     text-align: center;}
-/*positions..*/
-.star {
-    position: absolute;
-    top: 70px;
-    right: 30px;}
-.static-box {
-    position: static;}
+
 
 /*fload and clear*/
 .about-photo {
