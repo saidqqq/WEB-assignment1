@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg,#dcecff, #b8d8f0);
+    font-family: Arial, sans-serif;
+    color: #333;}
+
+#main-heading {font-size: 40px;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em}
+p {font-size: 15px}
+.welcome-text {font-family: consolas;}
+.highlight {
+    background-color: rgb(155, 163, 197);
+    height: 30px;}
+    
+/*parts*/
+.header {
+    text-align: center;
+    font-family: consolas;
+    margin-bottom: 30px;
+    background: linear-gradient(#588BAE, #7895b2);
+    color: white;
+    padding: 10px;}
+.main-content {
+    position: relative;
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;}
+.footer {
+    position: relative;
+    width: 30%;
+    max-width: 1000px;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto 50px;
+    text-align: center;}
+/*positions..*/
+.star {
+    position: absolute;
+    top: 70px;
+    right: 30px;}
+.static-box {
+    position: static;}
+
+/*fload and clear*/
+.about-photo {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 47%;
+    margin-right: 20px;}
+
+.about {
+    background: white;
+    padding: 2rem;
+    margin: 25px 0;
+    border-radius: 20px;}
+
+.clear {
+    clear: both;}
+
+/*table decoration*/
+table {
+    width: 85%;
+    margin: 0 auto;
+    background: white;}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #b8cde0;}
+th {
+    background-color: #588BAE;
+    color: white;}
